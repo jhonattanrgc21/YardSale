@@ -1,0 +1,32 @@
+.email-container {
+    display: flex;
+    justify-content: center;
+}
+
+.email-container__image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: $text-input-field;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+
+    img {
+        width: 80px;
+    }
+}
+
+.resend {
+    font-size: $sm;
+
+    span {
+        color: $very-light-pink;
+    }
+
+    a {
+        color: $hospital-green;
+        text-decoration: none;
+    }
+}
