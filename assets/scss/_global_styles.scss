@@ -48,11 +48,11 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-}
 
-.form div {
-    display: flex;
-    flex-direction: column;
+    div {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .label {
