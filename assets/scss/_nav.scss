@@ -1,3 +1,4 @@
+// Menu para desktop
 .desktop-menu {
     width: 150px;
     height: auto;
@@ -34,4 +35,45 @@
             }
         }
     }
+}
+
+// Menu para Movil
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 24px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    ul {
+        padding: 0;
+        margin: 24px 0 0 0;
+        list-style: none;
+        &:nth-child(1),
+        &:nth-child(2) {
+            li {
+                margin-bottom: 24px;
+            }
+        }
+
+        &:nth-child(1) {
+            border-bottom: 1px solid $very-light-pink;
+        }
+    }
+}
+
+.email {
+    font-size: $sm;
+    font-weight: 300 !important;
+}
+
+.sign-out {
+    font-size: $sm;
+    color: $hospital-green !important;
 }
